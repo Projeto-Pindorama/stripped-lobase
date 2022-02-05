@@ -1,7 +1,7 @@
 TOPDIR?=..
-SUBDIR=	compress diff3 diff mktemp readlink sdiff shar split stat which xargs
+SUBDIR= diff3 diff mktemp readlink sdiff shar split stat which xargs
 
-SKIPDIR= apply awk basename bc biff cal calendar cmp colrm col column comm \
+SKIPDIR= apply awk basename bc biff cal calendar cmp colrm col column compress comm \
 	cut dc dirname du encrypt env expand false file find fmt fold \
 	from ftp getconf getent getopt grep head hexdump id indent join jot lam leave \
 	lndir logger logname look lorder mail mkdep file ftp cu tail tee telnet tftp time touch tr true tsort tty \
