@@ -23,7 +23,7 @@ include ${.TOPDIR}/config.mk
 VPATH+=	${.CURDIR}
 
 BINOWN?=	root
-BINGRP?=	root
+BINGRP?=	wheel	
 BINMODE?=	555
 NONBINMODE?=	444
 DIRMODE?=	755
