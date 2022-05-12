@@ -1,6 +1,6 @@
 TOPDIR?=..
-SUBDIR= cat chmod cp date dd df domainname expr hostname kill ls ln md5 \
-       	mkdir mv pwd rm rmdir stty sync test 
+SUBDIR= cat chmod cp date dd df domainname echo expr hostname kill ls \
+	ln md5 mkdir mv pwd rm rmdir sleep stty sync test 
 	
-SKIPDIR= echo ed pax ksh sleep 
+SKIPDIR= ed pax ksh
 include ${.TOPDIR}/mk/bsd.subdir.mk
