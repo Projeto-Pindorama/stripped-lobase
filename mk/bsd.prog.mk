@@ -111,7 +111,7 @@ ifneq (,$(LINKS))
 		echo "$$t -> $$l"; \
 		mkdir -p $$(dirname $$t); \
 		rm -f $$t; \
-		ln -s $$l $$t; \
+		ln $$l $$t; \
 	done
 
 endif
