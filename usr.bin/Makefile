@@ -1,14 +1,14 @@
 TOPDIR?=..
-SUBDIR= apply col colrm column diff diff3 false jot lam leave lndir \
-	logger look lorder mkdep readlink sdiff sed shar split stat true \
-	unifdef vis which xargs xinstall 
+SUBDIR= apply cal calendar cmp colrm col column comm cut du diff diff3 \
+	encrypt env expand false find fmt fold getconf getent getopt grep head \
+	hexdump id join jot lam leave lndir logger logname look nice nl nohup \
+        paste patch pr printenv printf readlink renice rev rs sdiff sed shar \
+       	signify sort spell split stat tail tee time touch tr true tsort tty \
+	ul units unexpand uniq unvis vis wc which xinstall newsyslog banner \
+	xargs csplit yes
 
-SKIPDIR= awk basename bc biff cal calendar cmp compress comm \
-	cut dc dirname du encrypt env expand file find fmt fold \
-	from ftp getconf getent getopt head hexdump id indent join \
-	logname mail file ftp tail tee telnet tftp time touch tr tsort tty \
-	ul units uname unexpand uniq unvis uudecode uuencode vacation wc what mktemp \
- 	htpasswd cu newsyslog banner cap_mkdb whois pkg-config pr printenv printf rcs  \
-	csplit ctags deroff yes
+SKIPDIR= awk basename bc biff cap_mkdb compress ctags cu dc deroff dirname \
+	 file from ftp htpasswd indent lorder mail mkdep mktemp pkg-config \
+	 rcs telnet tftp uname unifdef uudecode uuencode vacation what whois
 
 include ${.TOPDIR}/mk/bsd.subdir.mk
